@@ -1,0 +1,5 @@
+n = int(input())
+if not n % 400: print('YES')
+elif not n % 100: print('NO')
+elif not n % 4: print('YES')
+else: print('NO')
